@@ -7,6 +7,8 @@
     <link href=“https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap” rel=“stylesheet”>
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 1440px)">
+    <link rel="stylesheet" href="./css/tablet-2.css" media="(min-width: 1024px)">
     <title>Responsive</title>
 </head>
 <body>
@@ -15,7 +17,7 @@
         <div class="header--title-container">
             <h1>La proxima revolución en el intercambio de criptomonedas</h1>
             <p>Batatabit te ayuda a navegar entre los diferentes precios y tendencias</p>
-            <a href="" class="header--button">Conoce nuestros planes
+            <a href="#plans" class="header--button">Conoce nuestros planes
                 <span></span>
             </a>
         </div>
@@ -131,10 +133,61 @@
                 </article>
             </section>
         </section>
-        <section></section>
-        <section></section>
+
+        <section class="bitcoin-img">
+            <h2>Conócelo hoy</h2>
+        </section>
+
+        <section id="plans" class="main-plans-container">
+            <div class="plans-title">
+                <h2>Escoge el plan que mejor se ajuste a ti.</h2>
+                <p>Cualquier plan te da acceso completo a nuestra plataforma</p>
+            </div>
+            <section class="plans-container-slider">
+                <article class="plans-card">
+                    <p class="recommended">Recomendado</p>
+                    <div class="plan-info-cotainer">
+                        <h3 class="plan-card-title">Pago anual</h3>
+                        <p class="plan-card-price"><span>$ </span>99</p>
+                        <p class="plan-card-saving">* Ahorras $129 comparado al plan mensual.</p>
+                        <button class="plan-card-ca">Escoger este <span></span></button>
+                    </div>
+                </article>
+
+                <article class="plans-card">
+                    <p class="recommended-2">Básico</p>
+                    <div class="plan-info-cotainer">
+                        <h3 class="plan-card-title">Pago mensual</h3>
+                        <p class="plan-card-price"><span>$ </span>29</p>
+                        <p class="plan-card-saving">* Plan básico aunque con todas las ventajas.</p>
+                        <button class="plan-card-ca-2">Escoger este <span></span></button>
+                    </div>
+                </article>
+
+                <article class="plans-card-2">
+                    <p class="recommended-3">Ilimitado</p>
+                    <div class="plan-info-cotainer">
+                        <h3 class="plan-card-title-2">De por vida</h3>
+                        <p class="plan-card-price-2"><span>$ </span>199</p>
+                        <p class="plan-card-saving-2">* Exclusiva para los primeros 100 clientes con un precio especial.</p>
+                        <button class="plan-card-ca-3">Escoger este <span></span></button>
+                    </div>
+                </article>
+            </section>
+        </section>
     </main>
 
-    <footer></footer>
+    <footer>
+        <section class="left">
+            <ul>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">Crunchbase</a></li>
+                <li><a href="#">Hackernews</a></li>
+            </ul>
+        </section>
+        <section class="right">
+            <img src="./assets/img/logo-footer.svg" alt="logo de batatabit">
+        </section>
+    </footer>
 </body>
 </html>
